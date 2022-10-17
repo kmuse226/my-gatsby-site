@@ -2,6 +2,7 @@
 import { Link } from 'gatsby'
 import * as React from 'react'
 import Layout from "../components/layout"
+import Seo from '../components/seo'
 
 // Step 2: Define your component
 const AboutPage = () => {
@@ -12,13 +13,7 @@ const AboutPage = () => {
   )
 }
 
-export const Head = () => (
-    //. Adding such metadata helps search engines like Google to better understand your site. 
-    <>
-    <title>About Me!</title>
-    <meta name="description" content="Your description" />
-  </>
-)
+export const Head = () => <Seo title="About Me" />
 
 // Step 3: Export your component
 export default AboutPage
