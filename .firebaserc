@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "gatsby-tutorial-blog-fc71b"
+  },
+  "targets": {
+    "gatsby-tutorial-blog-fc71b": {
+      "hosting": {
+        "seven": [
+          "part-seven-gatsby-blog"
+        ],
+        "six": [
+          "part-six-gatsby-blog"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
